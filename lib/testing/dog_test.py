@@ -3,7 +3,7 @@ import os
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 
-from dog import (
+from lib.dog import (
     create_table,
     find_by_id,
     find_by_name,
